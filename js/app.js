@@ -16,6 +16,6 @@ const $leah = $('#Leah');
 
 $button.on('click', () => {
     let answerNum = Math.floor(Math.random()* Math.floor(facts.length));
-    $leah.text((`Why I love Leah reason number ${random[answerNum]}: ${facts[answerNum]}.`))
+    $leah.text((`Why I love Leah reason number ${random[answerNum]}: ${facts[answerNum]}`))
     randomRGB();
 }) 
